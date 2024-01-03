@@ -1,6 +1,5 @@
 var btn=document.getElementById("tokyo");
 var audio=document.getElementById("tokyohot");
-
 var tag = true;
 btn.onclick = function(){
     if(tag){
@@ -23,7 +22,6 @@ btn.addEventListener("mouseout", function(){
 
 var btn=document.getElementById("rick");
 var audioo=document.getElementById("rickroll");
-var tag = true;
 btn.onclick = function(){
     if(tag){
                 
@@ -44,7 +42,6 @@ btn.addEventListener("mouseout", function(){
 })
 var btn=document.getElementById("no");
 var audiooo=document.getElementById("nono");
-var tag = true;
 btn.onclick = function(){
     if(tag){
                 
@@ -63,3 +60,4 @@ btn.addEventListener("mouseout", function(){
     this.innerText = "八尬nono";
     this.style.color ="silver";
 })
+
