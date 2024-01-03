@@ -1,9 +1,6 @@
-// const audio = document.getElementById("tokyohot");
-// function playAudio() {audio.play();}
-// function pauseAudio() {audio.pause();}
-    
-var btn=document.getElementById("btn");
+var btn=document.getElementById("tokyo");
 var audio=document.getElementById("tokyohot");
+
 var tag = true;
 btn.onclick = function(){
     if(tag){
@@ -16,10 +13,53 @@ btn.onclick = function(){
             }
      }    
 btn.addEventListener("mouseover", function(){
-    this.innerText = "yoooooooooooo";
+    this.innerText = "yoooooo";
     this.style.color ="red";
 })
 btn.addEventListener("mouseout", function(){
-    this.innerText = "yoooo";
+    this.innerText = "hot";
+    this.style.color ="blue";
+})
+
+var btn=document.getElementById("rick");
+var audioo=document.getElementById("rickroll");
+var tag = true;
+btn.onclick = function(){
+    if(tag){
+                
+        audioo.pause();
+        tag = false;
+    }else{
+        audioo.play();
+        tag = true;
+            }
+     }    
+btn.addEventListener("mouseover", function(){
+    this.innerText = "roool";
+    this.style.color ="green";
+})
+btn.addEventListener("mouseout", function(){
+    this.innerText = "rick roll";
+    this.style.color ="darkmagenta";
+})
+var btn=document.getElementById("no");
+var audiooo=document.getElementById("nono");
+var tag = true;
+btn.onclick = function(){
+    if(tag){
+                
+        audiooo.pause();
+        tag = false;
+    }else{
+        audiooo.play();
+        tag = true;
+            }
+     }    
+btn.addEventListener("mouseover", function(){
+    this.innerText = "no";
+    this.style.color ="red";
+})
+btn.addEventListener("mouseout", function(){
+    this.innerText = "八尬nono";
     this.style.color ="blue";
 })
