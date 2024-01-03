@@ -57,9 +57,9 @@ btn.onclick = function(){
      }    
 btn.addEventListener("mouseover", function(){
     this.innerText = "no";
-    this.style.color ="red";
+    this.style.color ="pink";
 })
 btn.addEventListener("mouseout", function(){
     this.innerText = "八尬nono";
-    this.style.color ="blue";
+    this.style.color ="silver";
 })
