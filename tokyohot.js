@@ -61,14 +61,14 @@ btn.addEventListener("mouseout", function(){
     this.style.color ="silver";
 })
 var btn=document.getElementById("bling");
-var audiooo=document.getElementById("blingbang");
+var audioooo=document.getElementById("blingbang");
 btn.onclick = function(){
     if(tag){
                 
-        audiooo.pause();
+        audioooo.pause();
         tag = false;
     }else{
-        audiooo.play();
+        audioooo.play();
         tag = true;
             }
      }    
