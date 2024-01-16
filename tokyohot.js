@@ -60,4 +60,24 @@ btn.addEventListener("mouseout", function(){
     this.innerText = "八尬nono";
     this.style.color ="silver";
 })
+var btn=document.getElementById("no");
+var audiooo=document.getElementById("nono");
+btn.onclick = function(){
+    if(tag){
+                
+        audiooo.pause();
+        tag = false;
+    }else{
+        audiooo.play();
+        tag = true;
+            }
+     }    
+btn.addEventListener("mouseover", function(){
+    this.innerText = "no";
+    this.style.color ="pink";
+})
+btn.addEventListener("mouseout", function(){
+    this.innerText = "八尬nono";
+    this.style.color ="silver";
+})
 
