@@ -60,8 +60,8 @@ btn.addEventListener("mouseout", function(){
     this.innerText = "八尬nono";
     this.style.color ="silver";
 })
-var btn=document.getElementById("no");
-var audiooo=document.getElementById("nono");
+var btn=document.getElementById("bling");
+var audiooo=document.getElementById("blingbang");
 btn.onclick = function(){
     if(tag){
                 
@@ -73,11 +73,11 @@ btn.onclick = function(){
             }
      }    
 btn.addEventListener("mouseover", function(){
-    this.innerText = "no";
-    this.style.color ="pink";
+    this.innerText = "bling";
+    this.style.color ="yellow";
 })
 btn.addEventListener("mouseout", function(){
-    this.innerText = "八尬nono";
-    this.style.color ="silver";
+    this.innerText = "bang-bang";
+    this.style.color ="darkblue";
 })
 
